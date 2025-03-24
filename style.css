@@ -1,0 +1,39 @@
+.name {
+    color: green;
+    font-size: 20pt;
+}
+.Rias{
+    color: #980002;
+    font-size: 14pt;
+    font-style: italic;
+}
+.Nami{
+    color: orange;
+    font-size: 14pt;
+    font-style: italic;
+}
+.Robin{
+    color: purple;
+    font-size: 14pt;
+    font-style: italic;
+}
+.escanor{
+    color: goldenrod;
+    font-size: 14pt;
+    font-style: italic;
+}
+.zoro{
+    color: #0b6b00;
+    font-size: 14pt;
+    font-style: italic;
+}
+.luffy{
+    color: red;
+    font-size: 14pt;
+    font-style: italic;
+}
+.tableHead{
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 14pt;
+}
