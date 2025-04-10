@@ -1,39 +1,39 @@
 .name {
-    color: green;
-    font-size: 20pt;
+    color: green !important;
+    font-size: 20pt !important;
 }
 .Rias{
-    color: #980002;
-    font-size: 14pt;
-    font-style: italic;
+    color: #980002 !important;
+    font-size: 14pt !important;
+    font-style: italic !important;
 }
 .Nami{
-    color: orange;
-    font-size: 14pt;
-    font-style: italic;
+    color: orange !important;
+    font-size: 14pt !important;
+    font-style: italic !important;
 }
 .Robin{
-    color: purple;
-    font-size: 14pt;
-    font-style: italic;
+    color: purple !important;
+    font-size: 14pt !important;
+    font-style: italic !important;
 }
 .escanor{
-    color: goldenrod;
-    font-size: 14pt;
-    font-style: italic;
+    color: goldenrod !important;
+    font-size: 14pt !important;
+    font-style: italic !important;
 }
 .zoro{
-    color: #0b6b00;
-    font-size: 14pt;
-    font-style: italic;
+    color: #0b6b00 !important;
+    font-size: 14pt !important;
+    font-style: italic !important;
 }
 .luffy{
-    color: red;
-    font-size: 14pt;
-    font-style: italic;
+    color: red !important;
+    font-size: 14pt !important;
+    font-style: italic !important;
 }
 .tableHead{
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 14pt;
+    font-family: Georgia, serif !important;
+    font-style: italic !important;
+    font-size: 14pt !important;
 }
