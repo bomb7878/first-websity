@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Игра "Танк и Тарелки" на Python 3.0</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Панель Навигации</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Домашняя Страница</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Обо мне</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-center" href="page1.html">Топ 3 моих любимых <br>
+                                                                            мужских персонажей аниме</a></li>
+                                <li><a class="dropdown-item text-center" href="page2.html">Топ 3 моих любимых <br>
+                                                                            женских персонажей аниме</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-center" href="portfolio.html">Главное Обо мне</a></li>
+                            </ul>
+                        </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+        <div class="container text-center mt-5">
+            <h1 class="name text-center">Игра "Танк и Тарелки" на Python 3.0</h1>
+            <h1>Выберите сложность</h1>
+            <div class="row">
+                <div class="col">
+                    <button type="button" value="0" class="btn btn-success difficultyButton">Лёгкая Сложность</button>
+                </div>
+                <div class="col">
+                    <button type="button" value="1" class="btn btn-warning difficultyButton">Средняя Сложность</button>
+                </div>
+                <div class="col">
+                    <button type="button" value="2" class="btn btn-danger difficultyButton">Сложная Сложность</button>
+                </div>
+            </div>
+            <canvas id="gameCanvas" width="500" height="600"></canvas>
+            <p id="score" style="font-size: 24px;">Счёт: 0</p>
+            <p id="message" style="font-size: 24px; color: green;"></p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    </body>
+</html>
