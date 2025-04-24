@@ -1,6 +1,7 @@
 .name {
-    color: green !important;
+    color: black !important;
     font-size: 20pt !important;
+    -webkit-text-stroke: 1px red;
 }
 .Rias{
     color: #980002 !important;
